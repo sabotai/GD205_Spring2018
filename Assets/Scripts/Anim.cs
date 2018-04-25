@@ -22,7 +22,7 @@ public class Anim : MonoBehaviour {
 			animState = 0;
 		}
 
-		if (Input.GetKeyDown (KeyCode.Space) && animState == 1) {
+		if (Input.GetKey (KeyCode.LeftShift) && animState == 1) {
 			animState = 2;
 		}
 

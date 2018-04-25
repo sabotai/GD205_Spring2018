@@ -23,6 +23,7 @@ public class Laser : MonoBehaviour {
 				if (beamHit.rigidbody != null) {
 					beamHit.rigidbody.AddForce (Random.insideUnitSphere * 10000f);
 				}
+				transform.LookAt (beamHit.point);
 			}
 			if (Input.GetMouseButtonDown (1)) {
 				Instantiate(prefab,beamHit.point,Quaternion.identity);				

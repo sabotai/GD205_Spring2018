@@ -1,0 +1,70 @@
+# Exported from Fuse 2017.1.0
+
+newmtl Hat
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d TopHat_Hat_Opacity.png
+map_Kd TopHat_Hat_Diffuse.png
+adobe_map_normal TopHat_Hat_Normal.png
+map_Ks TopHat_Hat_Specular.png
+adobe_map_shininess TopHat_Hat_Gloss.png
+
+newmtl Bottom
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d TopHat_Bottom_Opacity.png
+map_Kd TopHat_Bottom_Diffuse.png
+adobe_map_normal TopHat_Bottom_Normal.png
+map_Ks TopHat_Bottom_Specular.png
+adobe_map_shininess TopHat_Bottom_Gloss.png
+
+newmtl Top
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d TopHat_Top_Opacity.png
+map_Kd TopHat_Top_Diffuse.png
+adobe_map_normal TopHat_Top_Normal.png
+map_Ks TopHat_Top_Specular.png
+adobe_map_shininess TopHat_Top_Gloss.png
+
+newmtl Body
+illum 4 
+Kd 1.00 1.00 1.00 
+Tf 1.00 1.00 1.00 
+Ni 1.00 
+Ks 1.00 1.00 1.00 
+Ns 512 
+adobe_reflectivity 0.04 
+adobe_bump_strength 0.0 
+d 1.0 
+
+map_d TopHat_Body_Opacity.png
+map_Kd TopHat_Body_Diffuse.png
+adobe_map_normal TopHat_Body_Normal.png
+map_Ks TopHat_Body_Specular.png
+adobe_map_shininess TopHat_Body_Gloss.png
+
